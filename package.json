@@ -1,6 +1,6 @@
 {
   "name": "vue-ui-kit-2342",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "description": "## Project setup ``` npm install ```",
   "scripts": {
@@ -43,6 +43,6 @@
   },
   "homepage": "https://github.com/beytullahsercan/vue-ui-kit#readme",
  "files": ["dist"],
- "main": "./dist/js/index.js"
+ "main": "./dist/js/app.a2bb20d6.js"
  
 }
