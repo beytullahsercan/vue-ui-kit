@@ -2,10 +2,11 @@
   "name": "vue-ui-kit-2342",
   "version": "0.1.2",
   "private": false,
-  "description": "## Project setup ``` npm install ```",
+  "description": "A simple vuejs Hello World plugin",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-library" : "vue-cli-service build --target lib --name vue-ui-kit-2342 ./src/install.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -36,13 +37,16 @@
     "ui-kit",
     "vue"
   ],
-  "author": "Beytullah SERCAN",
+  "author": {
+        "name": "Beytullah SERCAN",
+        "email": "beytullahsercan@gmail.com"
+    },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/beytullahsercan/vue-ui-kit/issues"
   },
   "homepage": "https://github.com/beytullahsercan/vue-ui-kit#readme",
- "files": ["dist"],
- "main": "./dist/js/app.a2bb20d6.js"
+ "files": ["dist/*"],
+ "main" : ".dist/vue-ui-kit-2342.common.js"
  
 }
