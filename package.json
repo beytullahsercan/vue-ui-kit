@@ -1,9 +1,27 @@
 {
   "name": "vue-ui-kit-2342",
-  "version": "0.1.4",
-  "private": false,
   "description": "A simple vuejs Hello World plugin",
-  "scripts": {
+  "version": "0.1.5",
+  "private": false,
+   "author": {
+        "name": "Beytullah SERCAN",
+        "email": "beytullahsercan@gmail.com"
+    },
+     "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beytullahsercan/vue-ui-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beytullahsercan/vue-ui-kit/issues"
+  },
+   "keywords": [
+    "ui",
+    "ui-kit",
+    "vue"
+  ],
+  "license": "MIT",
+  "files": ["dist"],
+   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-library" : "vue-cli-service build --target lib --name vue-ui-kit-2342 ./src/install.js",
@@ -28,25 +46,7 @@
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/beytullahsercan/vue-ui-kit.git"
-  },
-    "keywords": [
-    "ui",
-    "ui-kit",
-    "vue"
-  ],
-  "author": {
-        "name": "Beytullah SERCAN",
-        "email": "beytullahsercan@gmail.com"
-    },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/beytullahsercan/vue-ui-kit/issues"
-  },
   "homepage": "https://github.com/beytullahsercan/vue-ui-kit#readme",
- "files": ["dist/*"],
- "main" : ".dist/vue-ui-kit-2342.common.js"
- 
+  "main" : ".dist/vue-ui-kit-2342.common.js"
+  
 }
