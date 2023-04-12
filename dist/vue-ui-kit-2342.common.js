@@ -114,31 +114,29 @@ if (typeof window !== 'undefined') {
 
 ;// CONCATENATED MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject = require("vue");
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=template&id=5cc7f8f0&scoped=true
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=template&id=e65ba3a6&scoped=true
 
-const _withScopeId = n => (_pushScopeId("data-v-5cc7f8f0"), n = n(), _popScopeId(), n);
+const _withScopeId = n => ((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.pushScopeId)("data-v-e65ba3a6"), n = n(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.popScopeId)(), n);
 const _hoisted_1 = {
   class: "hello"
 };
-const _hoisted_2 = /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createStaticVNode)("<p data-v-5cc7f8f0> For a guide and recipes on how to configure / customize this project,<br data-v-5cc7f8f0> check out the <a href=\"https://cli.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>vue-cli documentation</a>. </p><h3 data-v-5cc7f8f0>Installed CLI Plugins</h3><ul data-v-5cc7f8f0><li data-v-5cc7f8f0><a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>babel</a></li><li data-v-5cc7f8f0><a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>router</a></li><li data-v-5cc7f8f0><a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>vuex</a></li><li data-v-5cc7f8f0><a href=\"https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>eslint</a></li></ul><h3 data-v-5cc7f8f0>Essential Links</h3><ul data-v-5cc7f8f0><li data-v-5cc7f8f0><a href=\"https://vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>Core Docs</a></li><li data-v-5cc7f8f0><a href=\"https://forum.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>Forum</a></li><li data-v-5cc7f8f0><a href=\"https://chat.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>Community Chat</a></li><li data-v-5cc7f8f0><a href=\"https://twitter.com/vuejs\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>Twitter</a></li><li data-v-5cc7f8f0><a href=\"https://news.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>News</a></li></ul><h3 data-v-5cc7f8f0>Ecosystem</h3><ul data-v-5cc7f8f0><li data-v-5cc7f8f0><a href=\"https://router.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>vue-router</a></li><li data-v-5cc7f8f0><a href=\"https://vuex.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>vuex</a></li><li data-v-5cc7f8f0><a href=\"https://github.com/vuejs/vue-devtools#vue-devtools\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>vue-devtools</a></li><li data-v-5cc7f8f0><a href=\"https://vue-loader.vuejs.org\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>vue-loader</a></li><li data-v-5cc7f8f0><a href=\"https://github.com/vuejs/awesome-vue\" target=\"_blank\" rel=\"noopener\" data-v-5cc7f8f0>awesome-vue</a></li></ul>", 7);
+const _hoisted_2 = /*#__PURE__*/_withScopeId(() => /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("h1", null, "Hello World", -1));
+const _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("div", _hoisted_1, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("h1", null, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)($props.msg), 1), _hoisted_2]);
+  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("div", _hoisted_1, _hoisted_3);
 }
-;// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=template&id=5cc7f8f0&scoped=true
+;// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=template&id=e65ba3a6&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=script&lang=js
 /* harmony default export */ var HelloWorldvue_type_script_lang_js = ({
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: "HelloWorld"
 });
 ;// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=script&lang=js
  
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-22.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=style&index=0&id=5cc7f8f0&scoped=true&lang=scss
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-22.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=style&index=0&id=e65ba3a6&scoped=true&lang=scss
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=style&index=0&id=5cc7f8f0&scoped=true&lang=scss
+;// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=style&index=0&id=e65ba3a6&scoped=true&lang=scss
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
 var exportHelper = __webpack_require__(89);
@@ -150,7 +148,7 @@ var exportHelper = __webpack_require__(89);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(HelloWorldvue_type_script_lang_js, [['render',render],['__scopeId',"data-v-5cc7f8f0"]])
+const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(HelloWorldvue_type_script_lang_js, [['render',render],['__scopeId',"data-v-e65ba3a6"]])
 
 /* harmony default export */ var HelloWorld = (__exports__);
 ;// CONCATENATED MODULE: ./src/install.js
