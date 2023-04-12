@@ -41,6 +41,8 @@
   "bugs": {
     "url": "https://github.com/beytullahsercan/vue-ui-kit/issues"
   },
-  "homepage": "https://github.com/beytullahsercan/vue-ui-kit#readme"
+  "homepage": "https://github.com/beytullahsercan/vue-ui-kit#readme",
+ "files": ["dist"],
+ "main": "./dist/js/index.js"
  
 }
