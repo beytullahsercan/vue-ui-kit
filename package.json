@@ -1,7 +1,8 @@
 {
-  "name": "vue-ui-kit",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-ui-kit-2342",
+  "version": "0.1.1",
+  "private": false,
+  "description": "## Project setup ``` npm install ```",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -40,8 +41,6 @@
   "bugs": {
     "url": "https://github.com/beytullahsercan/vue-ui-kit/issues"
   },
-  "homepage": "https://github.com/beytullahsercan/vue-ui-kit#readme",
-  "files": [
-    "dist/**/*"
-  ]
+  "homepage": "https://github.com/beytullahsercan/vue-ui-kit#readme"
+ 
 }
