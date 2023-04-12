@@ -1,7 +1,7 @@
 {
   "name": "vue-ui-kit-2342",
   "description": "A simple vuejs Hello World plugin",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": false,
    "author": {
         "name": "Beytullah SERCAN",
@@ -20,7 +20,7 @@
     "vue"
   ],
   "license": "MIT",
-  "files": ["dist"],
+  "files": ["dist/*"],
    "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -47,6 +47,6 @@
     "sass-loader": "^12.0.0"
   },
   "homepage": "https://github.com/beytullahsercan/vue-ui-kit#readme",
-  "main" : ".dist/vue-ui-kit-2342.common.js"
+  "main" : "./dist/vue-ui-kit-2342.common.js"
   
 }
