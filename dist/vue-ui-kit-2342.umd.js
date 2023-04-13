@@ -79,6 +79,18 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__203__;
 /******/ 		};
 /******/ 	}();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	!function() {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	}();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	!function() {
 /******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
@@ -131,29 +143,29 @@ if (typeof window !== 'undefined') {
 
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__(203);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=template&id=e65ba3a6&scoped=true
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=template&id=2152a7ae&scoped=true
 
-const _withScopeId = n => ((0,external_commonjs_vue_commonjs2_vue_root_Vue_.pushScopeId)("data-v-e65ba3a6"), n = n(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_.popScopeId)(), n);
+const _withScopeId = n => ((0,external_commonjs_vue_commonjs2_vue_root_Vue_.pushScopeId)("data-v-2152a7ae"), n = n(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_.popScopeId)(), n);
 const _hoisted_1 = {
   class: "hello"
 };
 const _hoisted_2 = /*#__PURE__*/_withScopeId(() => /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementVNode)("h1", null, "Hello World", -1));
 const _hoisted_3 = [_hoisted_2];
-function render(_ctx, _cache, $props, $setup, $data, $options) {
+function render(_ctx, _cache) {
   return (0,external_commonjs_vue_commonjs2_vue_root_Vue_.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementBlock)("div", _hoisted_1, _hoisted_3);
 }
-;// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=template&id=e65ba3a6&scoped=true
+;// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=template&id=2152a7ae&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=script&lang=js
 /* harmony default export */ var HelloWorldvue_type_script_lang_js = ({
-  name: "HelloWorld"
+  name: "VueElegantButton"
 });
 ;// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=script&lang=js
  
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-64.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-64.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-64.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=style&index=0&id=e65ba3a6&scoped=true&lang=scss
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-64.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-64.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-64.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/HelloWorld.vue?vue&type=style&index=0&id=2152a7ae&scoped=true&lang=scss
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=style&index=0&id=e65ba3a6&scoped=true&lang=scss
+;// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=style&index=0&id=2152a7ae&scoped=true&lang=scss
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
 var exportHelper = __webpack_require__(620);
@@ -165,28 +177,34 @@ var exportHelper = __webpack_require__(620);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(HelloWorldvue_type_script_lang_js, [['render',render],['__scopeId',"data-v-e65ba3a6"]])
+const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(HelloWorldvue_type_script_lang_js, [['render',render],['__scopeId',"data-v-2152a7ae"]])
 
 /* harmony default export */ var HelloWorld = (__exports__);
 ;// CONCATENATED MODULE: ./src/install.js
 
-const HelloWorldSimple = {
-  install(Vue) {
-    // Let's register our component globally
-    // https://vuejs.org/v2/guide/components-registration.html
-    Vue.component("hello-world", HelloWorld);
-  }
-};
-
-// Automatic installation if Vue has been added to the global scope.
-if (typeof window !== "undefined" && window.Vue) {
-  window.Vue.use(HelloWorldSimple);
+function install(Vue) {
+  if (install.installed) return;
+  install.installed = true;
+  Vue.component("vue-elegant-button", HelloWorld);
 }
-/* harmony default export */ var install = (HelloWorldSimple);
+const install_plugin = {
+  install
+};
+let GlobalVue = null;
+if (typeof window !== "undefined") {
+  GlobalVue = window.Vue;
+} else if (typeof __webpack_require__.g !== "undefined") {
+  GlobalVue = __webpack_require__.g.vue;
+}
+if (GlobalVue) {
+  GlobalVue.use(install_plugin);
+}
+HelloWorld.install = install;
+/* harmony default export */ var src_install = (HelloWorld);
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
-/* harmony default export */ var entry_lib = (install);
+/* harmony default export */ var entry_lib = (src_install);
 
 
 }();

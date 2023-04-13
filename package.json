@@ -1,7 +1,7 @@
 {
   "name": "vue-ui-kit-2342",
   "description": "A simple vuejs Hello World plugin",
-  "version": "0.1.8",
+  "version": "0.1.12",
   "private": false,
    "author": {
         "name": "Beytullah SERCAN",
@@ -48,5 +48,6 @@
   },
   "homepage": "https://github.com/beytullahsercan/vue-ui-kit#readme",
   "main" : "./dist/vue-ui-kit-2342.common.js"
-  
+   
+
 }
